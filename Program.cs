@@ -70,7 +70,6 @@ namespace Homework5
                         return;
                 }
 
-                // Если дошли сюда, значит фигура создана успешно
                 Console.Write("Введите имя фигуры -> ");
                 figure.Name = Console.ReadLine();
 
@@ -80,7 +79,7 @@ namespace Homework5
             catch (Exception ex)
             {
                 Console.WriteLine($"Ошибка: {ex.Message}\n");
-                return; // Прерываем выполнение метода
+                return;
             }
         }
 
